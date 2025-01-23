@@ -1,1 +1,15 @@
 const accountId=122334
+
+let accountEmail="sritamrajmahakul@gmail.com"
+
+var accountPassword="1222334" //This is also not prefer to use now a days as this can be accessible from anywhere.(scope)
+
+accountCity="bhubaneswar" //not prefer to use but it's also a way
+
+let accountState
+
+//accountId=13344 //not allowed as this variable is constant
+
+console.log(accountId);
+
+console.table([accountId,accountEmail,accountPassword,accountState,accountCity])
