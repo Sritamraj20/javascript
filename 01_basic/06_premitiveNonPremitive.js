@@ -20,3 +20,5 @@ let obj={//Object
 const myFunction=function (){
     console.log("hello internet!")
 }//function in js
+
+console.log(typeof myFunction)
