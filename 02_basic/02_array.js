@@ -24,3 +24,7 @@ const anotherArray=[1,2,3,[4,5,6],7,[6,7,[4,5]]]
 console.log(anotherArray.flat(Infinity))
 console.log(anotherArray.flat(0))
 
+console.log(Array.of(1,2,3,4,5,6,6,7))
+console.log(Array.isArray())
+console.log(typeof Array)
+console.log(Array.from("sritam"))
