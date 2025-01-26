@@ -22,3 +22,16 @@ console.log(myhero.indexOf(4))
 
 const newArr=myhero.join()//it converts the array to string
 console.log(typeof newArr)
+
+const myn1=myhero.slice(1,3)
+
+//returns a shallow copy of original array and original array remain unchanged.
+
+//console.log("a",myhero)
+console.log(myn1)
+
+const myn2=myhero.splice(1,3)
+
+//removes the portion of array from original array. and in splice it also consider end index.
+
+console.log(myn2)
