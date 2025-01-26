@@ -37,3 +37,15 @@ function mul(val1,val2,...num1){
 }
 
 console.log(mul(10,20,30,40))
+
+// const user={
+//     username:"sritam",
+//     price:199
+// }
+
+function handleObject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`)
+}
+
+//handleObject(user)
+handleObject({username:"sritamraj",price:199})//in this way also we can call functions.
