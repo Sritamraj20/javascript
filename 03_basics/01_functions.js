@@ -24,3 +24,16 @@ const add=function sub(num1,num2){
     return num1-num2
 }
 console.log(add(5,3))//This is how we call function with declaration.
+
+//-------rest-parameter------------//
+function mul(...num1){
+    return num1
+}
+
+console.log(mul(10,20,30))
+
+function mul(val1,val2,...num1){
+    return num1
+}
+
+console.log(mul(10,20,30,40))
