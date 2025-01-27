@@ -29,3 +29,11 @@ do{
 //     console.log("inside while loop");
 //     b+=2
 // }
+
+//const arr=[1,2,3,4,5]
+
+const arr=["sritam","raj"]
+
+for(const num of arr){
+    console.log(num);
+}
