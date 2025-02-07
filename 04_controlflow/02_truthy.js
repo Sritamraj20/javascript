@@ -20,10 +20,10 @@ if(undefined){
 //Nullish coalescing operator(??):null undefined
 
 let val1;
-//val1=5??10
+val1=5??10
 //val1=null??5
 //val1=undefined??10
-val1=null??100??10
+//val1=null??100??10
 
 console.log(val1);
 
